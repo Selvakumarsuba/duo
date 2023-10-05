@@ -56,7 +56,7 @@ spec:
           name: nginx-config
       containers:
       - name: nginx-container
-        image: nginx:latest
+        image: selvasuba/duo-deploy-nginx:latest
         ports:
         - containerPort: 80
         volumeMounts:
