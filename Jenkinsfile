@@ -42,7 +42,7 @@ pipeline{
 
                     sh '''
 
-                    kubectl apply -f .
+                    kubectl apply -f ./k8s-deployments
 
                     kubectl rollout restart deployment flask-deployment
 
